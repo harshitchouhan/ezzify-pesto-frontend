@@ -1,0 +1,77 @@
+@import"./../../../sass/variables";
+
+.bookingPage {
+    padding: 3rem 0;
+
+    &__text {
+        font-family: $montserrat-font-family;
+        margin-bottom: 1rem;
+        font-weight: semibold;
+        font-size: 24px;
+
+        &--active_text {
+        font-family: $montserrat-font-family;
+        margin-bottom: 0 ;
+        font-weight: semibold;
+        font-size: 24px;
+        color:#09B162;
+        }
+
+        &--history_text {
+            font-family: $montserrat-font-family;
+            margin-bottom: 0 ;
+            font-weight: semibold;
+            font-size: 24px;
+            color:#696969;
+            }
+            
+        &--table {
+            font-family: $poppins-font-family;
+            font-weight: regular;
+            font-size: 16px;
+            color:#3F3D56;
+            padding: 2rem;
+            padding-left: 4rem;
+        }
+
+        &--content_table {
+            font-family: $poppins-font-family;
+            margin-bottom: 1rem ;
+            font-weight: regular;
+            font-size: 16px;
+            color:#7F7F7F;
+            padding: 4rem;
+        }
+
+        &--active_status {
+            font-family: $poppins-font-family;
+            margin-bottom: 1rem ;
+            font-weight: regular;
+            color: #09B162;
+            font-size: 16px;
+            padding: 4rem;
+        }
+    }
+
+    &__container_l1 {
+        padding: 1rem 0;
+        background-color: #f0f0f0;
+        border-radius: 1rem;
+    }
+
+    &__box {
+        box-shadow: $box-shadow-darker;
+        border-radius: 1rem;
+        background-color: white;
+        padding: 1rem 0;
+        margin-left: 1rem;
+
+        &--box_2 {
+            box-shadow: $box-shadow-darker;
+            border-radius: 1rem;
+            background-color: white;
+            padding: 1rem 0;    
+        }
+
+    }
+}

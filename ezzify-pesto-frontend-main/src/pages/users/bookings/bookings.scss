@@ -30,17 +30,18 @@
             font-weight: regular;
             font-size: 16px;
             color:#3F3D56;
-            padding: 2rem;
-            padding-left: 4rem;
+            padding: 1rem;
+            padding-left: 1rem;
+            text-align: center;
         }
 
         &--content_table {
             font-family: $poppins-font-family;
-            margin-bottom: 1rem ;
+            margin-bottom: 1rem;
             font-weight: regular;
             font-size: 16px;
             color:#7F7F7F;
-            padding: 4rem;
+            padding: 3rem;
         }
 
         &--active_status {
@@ -55,8 +56,10 @@
 
     &__container_l1 {
         padding: 1rem 0;
+        height: 75px;
         background-color: #f0f0f0;
         border-radius: 1rem;
+        padding-top: 10px;
     }
 
     &__box {
@@ -65,6 +68,7 @@
         background-color: white;
         padding: 1rem 0;
         margin-left: 1rem;
+        padding-bottom: 1px;
 
         &--box_2 {
             box-shadow: $box-shadow-darker;
@@ -73,5 +77,12 @@
             padding: 1rem 0;    
         }
 
+    }
+
+    &__border_line {
+        border-bottom-style: inset;
+        border-bottom-width: 1px;
+        border-bottom-color:#09B44D;
+        
     }
 }

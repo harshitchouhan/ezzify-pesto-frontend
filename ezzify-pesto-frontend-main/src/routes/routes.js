@@ -7,8 +7,9 @@ import Profile from "../pages/profile/profile";
 import Services from "../pages/services/services";
 import Home from "./../pages/home/home";
 import Dashboard from "./../pages/dashboard/dashboard";
+import Bookings from "./../pages/users/bookings/bookings";
 import Vendor from "./../pages/vendor/homePage";
-import Userbookings from "./../pages/users/bookings/bookings";
+import Payment from "./../pages/users/payment/payment";
 
 const Routes = () => {
   return (
@@ -18,7 +19,8 @@ const Routes = () => {
       <Route exact path="/services" component={Services} />
       <Route exact path="/admin" component={Login} />
       <Route exact path="/vendorhome" component={Vendor} />
-      <Route exact path="/bookings" component={Userbookings} />
+      <Route exact path="/bookings" component={Bookings} />
+      <Route exact path="/payment" component={Payment} />
       <Route path="/dashboard" component={Dashboard} />
     </Switch>
   );

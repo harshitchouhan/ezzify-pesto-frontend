@@ -1,0 +1,54 @@
+@import"./../../../sass/variables";
+
+.paymentPage {
+    padding: 3rem 0;
+
+    &__text {
+        font-family: $montserrat-font-family;
+        margin-bottom: 1rem;
+        font-weight: semibold;
+        font-size: 24px;
+        color: #30334F;
+
+    &--service_text {
+        font-family: $poppins-font-family;
+        margin-bottom: 1rem;
+        font-weight: 300;
+        font-size: 20px;
+        color: #30334F;
+    }
+    &--vendor_text {
+        font-family: $poppins-font-family;
+        margin-bottom: 1rem;
+        font-weight: 500;
+        font-size: 24px;
+        color: #30334F;
+    }
+
+    &--rating {
+        font-family: $poppins-font-family;
+        margin-bottom: 1rem;
+        font-weight: 400;
+        font-size: 18px;
+        color: #FFC200;
+    }
+
+    &--baseprice {
+        font-family: $poppins-font-family;
+        font-weight: 400;
+        font-size: 24px;
+        color: #09B162;
+    }
+    }
+
+    &__box {
+        box-shadow: $box-shadow-darker;
+        border-radius: 1rem;
+        background-color: white;
+        padding: 1rem 0;
+    }
+
+    &__rupee_img {
+        padding-right: 125px;
+    }
+}

@@ -11,11 +11,11 @@ function Booking() {
         <b className="bookingPage__text mb-5">MY BOOKINGS</b>
       </div>
       <div className="container-fluid bookingPage__container_l1">
-        <div className="d-flex flex-row">
-          <div className="col-lg-6 bookingPage__box">
+        <div className="row">
+          <div className="col-6 bookingPage__box">
             <p className="bookingPage__text--active_text  d-flex justify-content-center">ACTIVE</p>
           </div>
-          <div className="col-lg-5 mt-3 bookingPage__text--history_text d-flex justify-content-center ">
+          <div className="col-6 mt-3 bookingPage__text--history_text d-flex justify-content-center ">
             <b>HISTORY</b>
           </div>
         </div>
@@ -33,9 +33,9 @@ function Booking() {
             
             <tr className="bookingPage__border_line">
               <td className="bookingPage__text--content_table">
-                <div className="d-flex flex-row">
+                <div className="d-flex flex-row align-items-center">
                   <img src={laundryIcon} alt="laundry" />
-                  <p className="ml-4 mt-3">LAUNDRY</p>
+                  <p className=" mb-0 ml-4 ">LAUNDRY</p>
                 </div>
               </td>
               <td className="bookingPage__text--content_table">Prateek Kawthekar</td>
@@ -48,7 +48,7 @@ function Booking() {
               <td className="bookingPage__text--content_table">
                 <div className="d-flex flex-row">
                   <img src={paintingIcon} alt="painting" />
-                  <p className="ml-4 mt-3">PAINTING</p>
+                  <p className="ml-4 mb-0">PAINTING</p>
                 </div>
               </td>
               <td className="bookingPage__text--content_table">Prateek Kawthekar</td>
@@ -61,7 +61,7 @@ function Booking() {
               <td className="bookingPage__text--content_table">
                 <div className="d-flex flex-row">
                 <img src={repairingIcon} alt="repairing" />
-                <p className="ml-4 mt-3">REPAIRING</p>
+                <p className="ml-4 mb-0">REPAIRING</p>
                 </div>
               </td>
               <td className="bookingPage__text--content_table">Harshit Chouhan</td>
